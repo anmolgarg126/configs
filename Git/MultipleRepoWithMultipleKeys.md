@@ -1,6 +1,11 @@
 Using [github's process](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), I generated a new ssh key and added it to my profile on github
 
 I added a config file in my .ssh folder, and I referenced my work ssh key and my personal ssh key as was outlined in other answers.
+```
+cd ~/.ssh
+touch config
+subl config -> opens file in sublime
+```
 
 ```
 Host github.com
