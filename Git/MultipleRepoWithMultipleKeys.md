@@ -30,3 +30,5 @@ I verified that both keys were added with ssh-add -L
 Then I [verified the connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection) with ssh -T git@github.com and ssh -T git@personal, and both worked!
 
 After that, I was able to clone repos using my personal key with this command: git clone git@personal:my_username/repo.git (swapping out the git@github.com:... that I copied from my github repo for git@personal:...)
+
+ > **_NOTE:_** use git pull git@personal:my_username/repo.git, git push git@personal:my_username/repo.git, every git command followed by **git@personal:my_username/repo.git** if you face any account mismatch issue.
